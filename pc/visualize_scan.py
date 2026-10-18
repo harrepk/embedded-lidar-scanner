@@ -1,8 +1,7 @@
-## Title O3D Create Test Data
+## Embedded LiDAR Scanner - 3D visualization
 #
-#   Purpose: This example Python program simulates data received from a
-#   sensor by writing the expected format of example data to a file. The
-#   visualization will be demonstrated using a Python module called Open3D.
+#   Purpose: Loads the scanned point cloud (.xyz) and renders it in 3D with
+#   Open3D, first as raw points and then as a connected wireframe.
 #
 #   Special notes:
 #       1. Open3D only works with Pythons 3.6-3.9.  It does not work with 3.10
@@ -13,11 +12,6 @@
 #       4. VirtualBox does not support OpenGL. If you're running Windows under Virtualbox or
 #       your system doesn't support OpenGL (very rare), then you can install an OpenGL emulator dll
 #           https://fdossena.com/?p=mesa/index.frag (unzip and copy opengl32.dll into Python dir)
-#
-#   T. Doyle
-#   March 18, 2022 (Updated 2020 example)
-#
-#   Adapted for the Embedded LiDAR Scanner project.
 
 
 import numpy as np
